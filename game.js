@@ -12,7 +12,7 @@ var gameStarted = 0
 
 //FUNCTIONS
 function playSound(name){                           //sound playing function
-    audio = new Audio('+name+'.mp3');
+    audio = new Audio(name+'.mp3');
     audio.play();
 }
 
